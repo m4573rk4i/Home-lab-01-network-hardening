@@ -1,31 +1,31 @@
 device_id,category_or_model,role,observed_connection,target_zone,notes
-CORE-01,Netgear Nighthawk RAX30,Router,—,Core,Firmware and credential changes completed; UPnP disabled
+CORE-01,Netgear Nighthawk RAX30,Router,—,Core,Firmware updated; passwords changed; UPnP off; confirmed on the router. WPS state unverified
 NVR-01,Alarm.com,Network video recorder,Wired,Cameras,Target zone only; migration not verified
 CAM-01,Hanwha Wisenet dome,Camera,Wired,Cameras,Move off trusted LAN; isolation pending
 CAM-02,Hanwha Wisenet dome,Camera,Wired,Cameras,Move off trusted LAN; isolation pending
 CAM-03,Hanwha Wisenet bullet,Camera,Wired,Cameras,Move off trusted LAN; isolation pending
 CAM-04,Hanwha Wisenet,Camera,Wired,Cameras,Move off trusted LAN; isolation pending
 CAM-05,Hanwha Wisenet bullet,Camera,Wired,Cameras,Move off trusted LAN; isolation pending
-IOT-01,Sonos ZP100,Speaker,2.4 GHz,IoT,End-of-life ZP100; retirement planned
-IOT-02,Chromecast,Streaming,2.4 GHz,IoT,Target zone only; migration not verified
-IOT-03,Samsung device,Unknown,2.4 GHz,IoT,Target zone only; migration not verified
-IOT-04,Hubspace Device,Smart home,2.4 GHz,IoT,Target zone only; migration not verified
-IOT-05,Apple TV,Streaming,2.4 GHz,IoT,Target zone only; migration not verified
+IOT-01,Sonos speaker,Speaker,2.4 GHz,IoT,Router name suggested Sonos; exact model unverified; outside the five guest-list confirmations
+IOT-02,Chromecast,Streaming,2.4 GHz,IoT,On the guest network in the November 8 router client list; isolation and DNS not tested from the device
+IOT-03,Samsung TV/device,Unverified past the router label,2.4 GHz,IoT,On the guest network in the November 8 router client list; isolation and DNS untested from the device
+IOT-04,Hubspace Device,Smart home,2.4 GHz,IoT,Not in the five guest-list confirmations; some remaining IoT was still on the main network
+IOT-05,Apple TV,Streaming,2.4 GHz,IoT,One of two Apple TVs was on the November 8 guest list; this file does not identify which row; guest membership left blank here
 TRUSTED-01,iPhone,Phone,2.4 GHz,Trusted,Target zone only; migration not verified
-IOT-06,onn Roku TV 43in,TV,2.4 GHz,IoT,Target zone only; migration not verified
+IOT-06,onn Roku TV 43in,TV,2.4 GHz,IoT,Not in the five guest-list confirmations; some remaining streaming devices were still on the main network
 TRUSTED-02,iPad,Tablet,2.4 GHz,Trusted,Target zone only; migration not verified
 TRUSTED-03,MacBook Pro,Laptop,2.4 GHz,Trusted,Target zone only; migration not verified
 UNKNOWN-01,Unidentified,Unknown,2.4 GHz,Unassigned,Identification pending
 CAM-06,Aosu,Camera,2.4 GHz,Cameras,Target zone only; migration not verified
 TRUSTED-04,iPhone,Phone,2.4 GHz,Trusted,Target zone only; migration not verified
 TRUSTED-05,iPhone,Phone,2.4 GHz,Trusted,Target zone only; migration not verified
-TRUSTED-06,Mac mini,Desktop,2.4 GHz,Trusted,AdGuard Home host; DHCP reservation configured
-IOT-07,Roomba,Vacuum,5 GHz,IoT,Target zone only; migration not verified
-IOT-08,Nintendo,Console,5 GHz,IoT,Target zone only; migration not verified
-IOT-09,Thermostat,Thermostat,5 GHz,IoT,Target zone only; migration not verified
-IOT-10,Thermostat,Thermostat,5 GHz,IoT,Target zone only; migration not verified
+TRUSTED-06,Mac mini,Desktop,2.4 GHz,Trusted,AdGuard Home v0.107.80 host; DHCP reservation confirmed; address omitted
+IOT-07,Roomba,Vacuum,5 GHz,IoT,Not in the five guest-list confirmations; some remaining IoT was still on the main network
+IOT-08,Nintendo,Console,5 GHz,IoT,Not in the five guest-list confirmations; some remaining IoT was still on the main network
+IOT-09,Thermostat,Thermostat,5 GHz,IoT,On the guest network in the November 8 router client list; isolation and DNS not tested from the device
+IOT-10,Thermostat,Thermostat,5 GHz,IoT,On the guest network in the November 8 router client list; isolation and DNS not tested from the device
 TRUSTED-07,iPad,Tablet,5 GHz,Trusted,Target zone only; migration not verified
-IOT-11,Apple TV,Streaming,5 GHz,IoT,Target zone only; migration not verified
-IOT-12,Sonos ZP100,Speaker,5 GHz,IoT,End-of-life ZP100; retirement planned
-IOT-13,Sonos ZP100,Speaker,5 GHz,IoT,End-of-life ZP100; retirement planned
-IOT-14,Sonos ZP100,Speaker,5 GHz,IoT,End-of-life ZP100; retirement planned
+IOT-11,Apple TV,Streaming,5 GHz,IoT,One of two Apple TVs was on the November 8 guest list; this file does not identify which row; guest membership left blank here
+IOT-12,Sonos speaker,Speaker,5 GHz,IoT,Router name suggested Sonos; exact model unverified; outside the five guest-list confirmations
+IOT-13,Sonos speaker,Speaker,5 GHz,IoT,Router name suggested Sonos; exact model unverified; outside the five guest-list confirmations
+IOT-14,Sonos speaker,Speaker,5 GHz,IoT,Router name suggested Sonos; exact model unverified; outside the five guest-list confirmations
